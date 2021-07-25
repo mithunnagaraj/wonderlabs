@@ -1,0 +1,29 @@
+.outside-card {
+    // height: 93%;
+}
+
+.avatar {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+.effect {
+    box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.54);
+    border-radius: 4px;
+}
+
+.effect:hover {
+    transform: scale3d(1.02, 1.02, 1.05);
+    transition: transform 0.5s;
+}
+
+.email {
+    color: black;
+    cursor: pointer;
+    &:hover {
+        color: #673ab7;
+    }
+}
