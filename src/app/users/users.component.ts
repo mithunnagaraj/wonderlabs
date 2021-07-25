@@ -58,6 +58,10 @@ export class UsersComponent implements OnInit {
     this.loadUsers(event.pageIndex + 1);
   }
 
+  /**
+   * Opening the outlook to send email
+   * @param email 
+   */
   openOutlook(email:String) {
     window.location.href = 'mailto:'+email;
   }

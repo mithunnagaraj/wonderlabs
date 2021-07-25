@@ -8,7 +8,7 @@
                 <mat-card-header>
                     <mat-card-title>{{user.first_name}}</mat-card-title>
                     <mat-card-subtitle>{{user.last_name}}</mat-card-subtitle>
-                    <mat-card-subtitle class="email" (click)="openOutlook(user.email)">{{user.email}}</mat-card-subtitle>
+                    <mat-card-subtitle class="email" (click)="openOutlook(user.email)" matTooltip="Send Email" matTooltipPosition="after">{{user.email}}</mat-card-subtitle>
                 </mat-card-header>
 
             </mat-card>
